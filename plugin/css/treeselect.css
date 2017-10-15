@@ -1,0 +1,43 @@
+ul.treeselect-ul, ul.treeselect-ul ul{ 
+    list-style: none;
+}
+
+ul.treeselect-ul ul{ 
+    list-style: none;
+    padding-left: 17px;
+}
+
+ul.treeselect-ul{
+    padding-left: 2px;
+}
+
+ul.treeselect-ul li{
+    padding: 3px 0px 3px 5px;
+    font-weight: bold;
+}
+
+ul.treeselect-ul li.treeselect-hasnotchildren{
+    font-weight: normal;
+}
+
+ul.treeselect-ul.treeselect-show{
+    position: absolute;
+    z-index: 100;
+    display:block;
+    overflow: auto;
+    background-color: #f2f2f2;
+    width: 100%;
+    list-style: none;
+}
+
+ul.treeselect-ul li.treeselect-hover:hover{
+    background-color: #5BC0DE;
+}
+
+ul.treeselect-ul.treeselect-hide{
+    display: none;
+}
+
+ul.treeselect-ul li.treeselect-selected{
+    background-color: #0275D8;
+}
