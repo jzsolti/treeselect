@@ -1,1 +1,1 @@
-# treeselect
+# treeselect jQuery plugin
